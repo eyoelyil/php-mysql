@@ -26,7 +26,7 @@
                 $errors['title'] = 'Title must be letters and spaces only';
             }
         }
-        // check ingredients
+        // check ingredients if any
         if(empty($_POST['ingredients'])) {
             $errors['ingredients'] = 'At least one ingredient is required <br />';
         } else {
